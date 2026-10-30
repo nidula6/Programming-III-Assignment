@@ -3,11 +3,7 @@ package com.sortperf.service;
 import com.sortperf.model.SortResult;
 import com.sortperf.sort.SortingAlgorithm;
 
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Comparator;
-import java.util.List;
-import java.util.Optional;
+import java.util.*;
 
 /** Runs sorting algorithms, measures their execution time and picks the best performer. */
 public final class PerformanceEvaluator {
